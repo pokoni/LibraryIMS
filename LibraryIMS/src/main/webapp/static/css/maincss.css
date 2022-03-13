@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    font-size: 12px;
+    font-family: "lucida Grande",Verdana,"Microsoft YaHei";
+    min-height: 500px;
+}
+
+.header{
+    font-size: 12px;
+    font-family: "lucida Grande",Verdana,"Microsoft YaHei";
+    height: 62px;
+    overflow: hidden;
+    zoom: 1;
+    border-bottom: 1px solid #d6dfea;
+    background: #eff4fa;
+}
+
+.header_link{
+    font-size: 12px;
+    font-family: "lucida Grande",Verdana,"Microsoft YaHei";
+    overflow: hidden;
+    margin-top: 16px;
+    padding-right: 17px;
+    line-height: 30px;
+    text-align: right;
+    color: #b6b6b6;
+}
+
+.content{
+    font-size: 12px;
+    font-family: "lucida Grande",Verdana,"Microsoft YaHei";
+    width: 960px;
+    margin: 32px auto;
+    padding: 0 24px;
+}
+
+.content_wrapper{
+    font-size: 12px;
+    font-family: "lucida Grande",Verdana,"Microsoft YaHei";
+    min-height: 372px;
+    padding-top: 40px;
+    margin: 0 20px 60px 25px;
+}
+
+.xm_login_container{
+    width: 334px;
+    height: 387px;
+}
+
+.login_container {
+    float: right;
+    border: 1px solid #a0b1c4;
+    width: 334px;
+    height: 387px;
+    _height: 371px;
+    background-color: #fff;
+    position: relative;
+    z-index: 12;
+    padding: 0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.xm_login_card{
+    font-size: 12px;
+    font-family: "lucida Grande",Verdana,"Microsoft YaHei";
+    visibility: visible;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.xm_login_card_tab{
+    font-family: "lucida Grande",Verdana,"Microsoft YaHei";
+    visibility: visible;
+    height: 50px;
+    font-size: 0;
+    border-bottom: 1px solid #a0b1c4;
+    background-color: #f9fbfe;
+    border-radius: 6px 6px 0 0;
+}
+
+.xm_login_card_tab_item{
+    font-family: "lucida Grande",Verdana,"Microsoft YaHei";
+    visibility: visible;
+    float: left;
+    width: 50%;
+    font-size: 16px;
+    line-height: 50px;
+    color: #999;
+    text-align: center;
+    cursor: pointer;
+}
+
+.xm_login_card_cnt{
+    font-size: 12px;
+    font-family: "lucida Grande",Verdana,"Microsoft YaHei";
+    visibility: visible;
+    position: relative;
+    width: 100%;
+    height: 336px;
+}
+
+.xm_login_card_admin{
+    font-size: 12px;
+    font-family: "lucida Grande",Verdana,"Microsoft YaHei";
+    visibility: visible;
+    width: 1200px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    background-color: #fff;
+}
+
+.login_loginBox_admin_iframe{
+    font-size: 12px;
+    font-family: "lucida Grande",Verdana,"Microsoft YaHei";
+    visibility: visible;
+    height: 100%;
+    width: 100%;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+}
+
