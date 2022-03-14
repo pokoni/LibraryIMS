@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    background: url(../img/back-img.jpg) no-repeat center top;
+}
+
+.main-contaiener {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.head-container {
+    position: relative;
+    padding-right: 50px;
+    width: 100%;
+    height: 50px;
+    background-color: #eff4fa;
+}
+
+.container .logo {
+    position: absolute;
+    left: 20px;
+    float: left;
+    line-height: 50px;
+    font-size: 30px;
+    font-family: 'Microsoft YaHei', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container li {
+    float: right;
+    padding-right: 10px;
+    line-height: 50px;
+}
+
+.login {
+    position: absolute;
+    top: 250px;
+    right: 200px;
+    width: 300px;
+    height: 350px;
+    border: 2px solid #ccc;
+    border-radius: 2%;
+    background-color: #eff4fa;
+}
+
+.login-head {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid #ccc;
+}
+
+.login-head span {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    line-height: 50px;
+    font-size: 18px;
+}
+
+
+/* 账号密码框 */
+
+.login .number {
+    padding-top: 40px;
+    padding-left: 25px;
+    width: 250px;
+    height: 100px;
+}
+
+.account {
+    width: 250px;
+    height: 30px;
+    border: 1px solid #000;
+}
+
+.pawssword {
+    padding-left: 25px;
+    width: 250px;
+    height: 100px;
+}
+
+.login-btn {
+    padding-top: 0px;
+    margin-left: 25px;
+    width: 250px;
+    height: 100px;
+}
+
+.login-btn input {
+    width: 100%;
+    height: 30px;
+}
+
+.agree {
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.words-container {
+    position: relative;
+    top: 250px;
+    left: 150px;
+    width: 300px;
+    height: 200px;
+}
+
+.words-container li {
+    position: absolute;
+    width: 500px;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Microsoft YaHei', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+
+}
+
+.words-container li span {
+    font-size: 15px;
+    right: 20px;
+    color: white;
+}
