@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    position: relative;
+}
+
+.logo img {
+    position: absolute;
+    top: -15px;
+    left: 0;
+    width: 50px;
+    height: 50px;
+}
+
+.school-name {
+    position: absolute;
+    top: -10px;
+    left: 80px;
+}
+
+.form-inline {
+    position: absolute;
+    padding-left: 600px;
+    line-height: 50px;
+}
+
+
+/* 主体内容区域 */
+
+.container {
+    position: relative;
+}
+
+
+/* 左侧文字区域 */
+
+.container .jumbotron {
+    position: absolute;
+    top: 100px;
+    left: -70px;
+    width: 600px;
+    height: 300px;
+    background-color: #fff;
+}
+
+
+/* 右边表单样式 */
+
+.table-container {
+    position: absolute;
+    top: 150px;
+    right: 40px;
+    width: 500px;
+    height: 1000px;
+}
+
+.table-container .list {
+    padding-left: 220px;
+}
